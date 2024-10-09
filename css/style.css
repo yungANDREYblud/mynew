@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    padding: 50px 0;
+}
+
+header nav ul li a{
+    cursor: pointer;
+    color: black;
+}
+
+header nav ul span{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+main{
+    height: 700px;
+    padding: 50px;
+    display: grid;
+}
+
+
+footer b{
+    padding: 50px;
+}
+
+footer hr{
+    padding-bottom: 50px;
+}
+
+.form{
+    border: 2px solid black;
+    width: 500px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 20px;
+    padding: 50px 0;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.reg{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 20px;
+    width: 250px;
+    justify-self: center;
+}
+
+.form button{
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 170px;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.form input{
+    width: 196px;
+    height: 36px;
+}
+
+.form select{
+    width: 196px;
+}
+
+.form1{
+    border: 2px solid black;
+    width: 500px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px;
+    padding: 50px 0;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.reg1{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 20px;
+    width: 250px;
+    justify-self: center;
+}
+
+.form1 input{
+    width: 196px;
+    height: 36px;
+}
+
+
+.form1 button{
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 170px;
+    justify-self: center;
+    cursor: pointer;
+}
+
+
+.user{
+    border: 2px solid black;
+    display: grid;
+    width: 300px;
+    height: 500px;
+    justify-items: center;
+}
+
+.userZ{
+    display: grid;
+    justify-items: center;
+}
+
+.user1{
+    border: 2px solid black;
+    display: grid;
+    width: 300px;
+    height: 500px;
+    justify-items: center;
+}
+
+.users{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
